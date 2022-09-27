@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TitolText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#02FFF0</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- Tema propi. Parteix d'un estil pare diferent del de l'aplicacio -->
+    <style parent="Theme.AppCompat.Dialog" name="TemaPropi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+    </style>
+
+        <!-- Codi font obtingut de: http://www.mindfreakerstuff.com/2012/09/50-useful-android-custom-button-style-set-1/ -->
+        <style parent="@android:style/Widget.Button" name="btPers">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:padding">10dip</item>
+    </style>
+    <style parent="btPers" name="btPers_xlarge">
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+
+</resources>

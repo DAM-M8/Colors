@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExempleColors</string>
+    <string name="titol">Els colors</string>
+    <string name="bt1">VERMELL</string>
+    <string name="bt2">BLAU</string>
+    <string name="bt3">NEGRE</string>
+    <string name="bt4">Test de Stroop</string>
+    <string name="sortir">Sortir</string>
+    <string name="encerts">Nombre d\'encerts:</string>
+    <string name="errors">Nombre d\'errors:</string>
+</resources>
