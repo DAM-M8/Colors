@@ -1,2 +1,2 @@
 # Colors
- Colors exemples DAM-M8_UF1
+ Colors exemple RA1: Strings, recursos i temes
